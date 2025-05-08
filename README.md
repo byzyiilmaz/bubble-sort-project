@@ -34,13 +34,18 @@ To make it easier to loop over the linked list, I added the `__iter__` method. T
 ```python
 sorted_ll = bubble_sort(linked_list)
 for node in sorted_ll:
-    print(node.value)
+    print(node.value) 
+```
 
-AI Assistance
-In this project, I used AI assistance at various stages of development.
+
+## AI Assistance
+In this project, I used AI assistance at various stages of development.  
 AI helped me write the algorithms and debug issues, making the code work correctly and more efficiently.
 
- Error vs Failure
-Term	Description
-Error	An issue that prevents the program from running and usually causes it to crash. For example, using the wrong data type.
-Failure	A test failure, where the program does not produce the expected result. In this case, the program continues to run, but the tests do not pass.
+
+## Error vs Failure
+
+| Term     | Description                                                                 |
+|----------|-----------------------------------------------------------------------------|
+| **Error** | An issue that prevents the program from running and usually causes it to crash. For example, using the wrong data type. |
+| **Failure** | A test failure, where the program does not produce the expected result. In this case, the program continues to run, but the tests do not pass. |
